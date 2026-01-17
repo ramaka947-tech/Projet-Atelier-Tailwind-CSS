@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!doctype html>
+<html>
+  <head>
+       <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+       <script src="https://cdn.tailwindcss.com"></script>
+         
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rouge: '#da373d',
+                        blue: '#000088',
+                        fond: '#e664',
+                        fond2: '#9e99',
+                    },
+                }
+            }
+        }
+    </script>
+
+<body class="bg-[#e3e6e4]  items-center"> 
+    <div class=" bg-indigo-600 p-10 flex-col text-center">
+        <h1 class="font-serif text-[30px] font-[500] text-white">Vetements Hommes </h1> 
+              <p class="text-[12px] font-[100] text-white">Découvrez notre collection masculine</p>
+    </div>
+    <h1 class="pb-10 pt-10 text-bold text-2xl pl-35 border-1 border-black-500 "> Produitts Vedettes</h1>
+
+<div class="flex flex-row gap-[20px]  ml-35  mr-35 flex flex-col md:flex-row">
+    
+   <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-150 hover:-translate-y-0 hover:shadow-xl">  
+     <div class="bg-[url('images/1thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>  
+       <div class="flex-col p-5 "> 
+        <h2 class="font-serif text-[15px] font-[100] text-black">T-Shirt Classic</h2>
+           <p class="text-[12px] font-[100] text-slate-500">Coton premium</p>
+       </div>
+       <div class=" flex justify-around mb-5">
+            <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
+            <button class="border-1 border-black-500 rounded-[5px] bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
+       </div>    
+      </div>
+
+     <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
+     <div class="bg-[url('images/2thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>   
+       <div class="flex-col p-5"> 
+        <h2 class="font-serif text-[15px] font-[100] text-black">Jean Slim</h2>
+           <p class="text-[12px] font-[100] text-slate-500">Denim stretch</p>
+       </div>
+       <div class="flex justify-around mb-5 ">
+            <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
+            <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
+       </div>    
+      </div>
+
+     <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
+      <div class="bg-[url('images/4thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
+       <div class="flex-col p-5"> 
+        <h2 class="font-serif text-[15px] font-[500] text-black">Veste Sport</h2>
+           <p class="text-[12px] font-[100] text-slate-500">Imperméable</p>
+       </div>
+       <div class="flex justify-around mb-5">
+            <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
+            <button class="border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
+       </div>    
+      </div>
+
+      <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
+     <div class="bg-[url('images/3thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>       
+       <div class="flex-col p-5"> 
+        <h2 class="font-serif text-[15px] font-[500] text-black">Chemise Lin</h2>
+           <p class="text-[12px] font-[100] text-slate-500">100% lin naturel</p>
+       </div>
+       <div class="flex justify-around mb-5">
+            <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
+            <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
+       </div>    
+      </div>
+
+</div>
+</body>
+</html>
