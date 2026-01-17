@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Shop</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+
+<body class="bg-[#F1F3F4] ">
+
+    <header class="bg-[#1f2937] text-white p-4 sticky top-0 z-50">
+        <nav>
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                <a href="index.html" class="text-2xl font-bold text-[#6366f1]">E-Shop</a>
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a href="index.html" class="text-[#6366f1] font-semibold">Accueil</a>
+                    <a href="hommes.html" class="hover:text-[#6366f1]">Hommes</a>
+                    <a href="femmes.html" class="hover:text-[#6366f1]">Femmes</a>
+                    <a href="accessoires.html" class="hover:text-[#6366f1]" >Accessoires</a>
+                    <a href="qui_sommes-nous.html" class="hover:text-[#6366f1]">Qui Sommes-Nous</a>
+                    <a href="contact.html" class="hover:text-[#6366f1]">Contact</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="favoris.html" class="text-2xl hover:scale-110">❤️</a>
+                    <div class="flex items-center gap-2 bg-[#5856FF] rounded-xl px-4 py-2">🛒 Panier (0)
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="bg-gradient-to-r from-[#6366f1] to-[#4f46e5] text-white py-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="flex-1 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Bienvenue sur E-Shop</h1>
+                <p class="text-xl mb-8 opacity-90">Découvrez notre collection exclusive</p>
+                <a href="hommes.html" class="inline-block bg-white px-8 py-4 rounded-2xl font-semibold text-[#6366f1]">Voir
+                    les produits</a>
+            </div>
+            <div class="rounded-[12px] flex-1 w-full max-w-md mx-auto">
+                <img src="IMAGE/Shop.jpg" class="rounded-2xl shadow shadow-10xs shadow-white w-100 h-70">
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="text-center mb-4 p-8">
+            <h2 class="font-bold text-4xl m-10">Nos Catégories</h2>
+            <div class="flex justify-center flex-col md:flex-row">
+
+                <div
+                    class="w-100 h-50 border-solid rounded-2xl shadow-[0_3px_35px_rgba(0,0,0,0.25)] bg-white  p-4 m-4 text-black">
+                    <a href="hommes.html">
+                        <div class="text-5xl mb-4">👔</div>
+                        <h3 class="text-2xl font-bold mb-2">Hommes</h3>
+                        <p class="text-2xl mb-2 opacity-70">Collection masculine</p>
+
+                    </a>
+                </div>
+
+                <div
+                    class="w-100 h-50 border-solid rounded-2xl shadow-[0_3px_35px_rgba(0,0,0,0.25)] bg-white  p-4 m-4 text-black">
+                    <a href="femmes.html">
+                        <div class="text-5xl mb-4">👗</div>
+                        <h3 class="text-2xl font-bold mb-2">Femmes</h3>
+                        <p class="text-2xl mb-2 opacity-70">Collection féminine</p>
+
+                    </a>
+                </div>
+
+                <div
+                    class="w-100 h-50 border-solid rounded-2xl shadow-[0_3px_35px_rgba(0,0,0,0.25)] bg-white  p-4 m-4 text-black">
+                    <a href="accessoires.html">
+                        <div class="text-5xl mb-4">👜</div>
+                        <h3 class="text-2xl font-bold mb-2">Accessoires</h3>
+                        <p class="text-2xl mb-2 opacity-70">Sacs, montres, bijoux</p>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-[#1f2937] text-white py-8 px-4 mt-auto">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy;2026 E-Shop - Projet Atelier Tailwind CSS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
