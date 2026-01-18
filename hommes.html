@@ -1,87 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!doctype html>
-<html>
-  <head>
-       <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-       <script src="https://cdn.tailwindcss.com"></script>
-         
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        rouge: '#da373d',
-                        blue: '#000088',
-                        fond: '#e664',
-                        fond2: '#9e99',
-                    },
+<head>
+    <!doctype html>
+    <html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            rouge: '#da373d',
+                            blue: '#000088',
+                            fond: '#e664',
+                            fond2: '#9e99',
+                        },
+                    }
                 }
             }
-        }
-    </script>
+        </script>
 
-<body class="bg-[#e3e6e4]  items-center"> 
-    <div class=" bg-indigo-600 p-10 flex-col text-center">
-        <h1 class="font-serif text-[30px] font-[500] text-white">Vetements Hommes </h1> 
-              <p class="text-[12px] font-[100] text-white">Découvrez notre collection masculine</p>
-    </div>
-    <h1 class="pb-10 pt-10 text-bold text-2xl pl-35 border-1 border-black-500 "> Produitts Vedettes</h1>
+    <body class="bg-[#e3e6e4]  items-center">
 
-<div class="flex flex-row gap-[20px]  ml-35  mr-35 flex flex-col md:flex-row">
+        <header class="bg-[#1f2937] text-white p-4 sticky top-0 z-50">
+            <nav>
+                <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                    <a href="index.html" class="text-2xl font-bold text-[#6366f1]">E-Shop</a>
+                    <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                        <a href="index.html" class="text-[#6366f1] font-semibold">Accueil</a>
+                        <a href="hommes.html" class="hover:text-[#6366f1]">Hommes</a>
+                        <a href="femmes.html" class="hover:text-[#6366f1]">Femmes</a>
+                        <a href="accessoires.html" class="hover:text-[#6366f1]">Accessoires</a>
+                        <a href="qui_sommes-nous.html" class="hover:text-[#6366f1]">Qui Sommes-Nous</a>
+                        <a href="contact.html" class="hover:text-[#6366f1]">Contact</a>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <a href="favoris.html" class="text-2xl hover:scale-110">❤️</a>
+                        <div class="flex items-center gap-2 bg-[#5856FF] rounded-xl px-4 py-2">🛒 Panier (0)
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class=" bg-indigo-600 p-10 flex-col text-center">
+            <h1 class="font-serif text-[30px] font-[500] text-white">Vetements Hommes </h1>
+            <p class="text-[12px] font-[100] text-white">Découvrez notre collection masculine</p>
+        </div>
+        <h1 class="pb-10 pt-10 text-bold text-2xl pl-35 border-1 border-black-500 "> Produitts Vedettes</h1>
+
+        <div class="flex flex-row gap-[20px]  ml-35  mr-35 flex flex-col md:flex-row">
+
+            <div
+                class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-150 hover:-translate-y-0 hover:shadow-xl">
+                <div class="bg-[url('image/1thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
+                <div class="flex-col p-5 ">
+                    <h2 class="font-serif text-[15px] font-[100] text-black">T-Shirt Classic</h2>
+                    <p class="text-[12px] font-[100] text-slate-500">Coton premium</p>
+                </div>
+                <div class=" flex justify-around mb-5">
+                    <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
+                    <button class="border-1 border-black-500 rounded-[5px] bg-indigo-600 w-20 hover:bg-indigo-700">+
+                        panier</button>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">
+                <div class="bg-[url('image/2thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
+                <div class="flex-col p-5">
+                    <h2 class="font-serif text-[15px] font-[100] text-black">Jean Slim</h2>
+                    <p class="text-[12px] font-[100] text-slate-500">Denim stretch</p>
+                </div>
+                <div class="flex justify-around mb-5 ">
+                    <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
+                    <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+
+                        panier</button>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">
+                <div class="bg-[url('image/4thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
+                <div class="flex-col p-5">
+                    <h2 class="font-serif text-[15px] font-[500] text-black">Veste Sport</h2>
+                    <p class="text-[12px] font-[100] text-slate-500">Imperméable</p>
+                </div>
+                <div class="flex justify-around mb-5">
+                    <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
+                    <button class="border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+
+                        panier</button>
+                </div>
+            </div>
+
+            <div
+                class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">
+                <div class="bg-[url('image/3thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
+                <div class="flex-col p-5">
+                    <h2 class="font-serif text-[15px] font-[500] text-black">Chemise Lin</h2>
+                    <p class="text-[12px] font-[100] text-slate-500">100% lin naturel</p>
+                </div>
+                <div class="flex justify-around mb-5">
+                    <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
+                    <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+
+                        panier</button>
+                </div>
+            </div>
+
+           
+
+        </div>
+
+        <footer class="bg-[#1f2937] text-white py-8 px-4 mt-auto">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy;2026 E-Shop - Projet Atelier Tailwind CSS</p>
+        </div>
+    </footer>
     
-   <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-150 hover:-translate-y-0 hover:shadow-xl">  
-     <div class="bg-[url('image/1thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>  
-       <div class="flex-col p-5 "> 
-        <h2 class="font-serif text-[15px] font-[100] text-black">T-Shirt Classic</h2>
-           <p class="text-[12px] font-[100] text-slate-500">Coton premium</p>
-       </div>
-       <div class=" flex justify-around mb-5">
-            <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
-            <button class="border-1 border-black-500 rounded-[5px] bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
-       </div>    
-      </div>
+    </body>
 
-     <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
-     <div class="bg-[url('image/2thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>   
-       <div class="flex-col p-5"> 
-        <h2 class="font-serif text-[15px] font-[100] text-black">Jean Slim</h2>
-           <p class="text-[12px] font-[100] text-slate-500">Denim stretch</p>
-       </div>
-       <div class="flex justify-around mb-5 ">
-            <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
-            <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
-       </div>    
-      </div>
-
-     <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
-      <div class="bg-[url('image/4thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>
-       <div class="flex-col p-5"> 
-        <h2 class="font-serif text-[15px] font-[500] text-black">Veste Sport</h2>
-           <p class="text-[12px] font-[100] text-slate-500">Imperméable</p>
-       </div>
-       <div class="flex justify-around mb-5">
-            <p class=" text-indigo-600 text-[20px] font-[500]">29,99€</p>
-            <button class="border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
-       </div>    
-      </div>
-
-      <div class="flex flex-col w-[250px]  overflow-hidden border-1 border-black-500 rounded-[20px] bg-white transform transition-all duration-300 hover:-translate-y-0 hover:shadow-xl">  
-     <div class="bg-[url('image/3thier.jpg')] width-[100%]  h-[200px] bg-cover"></div>       
-       <div class="flex-col p-5"> 
-        <h2 class="font-serif text-[15px] font-[500] text-black">Chemise Lin</h2>
-           <p class="text-[12px] font-[100] text-slate-500">100% lin naturel</p>
-       </div>
-       <div class="flex justify-around mb-5">
-            <p class="text-indigo-600 text-[20px] font-[500]">29,99€</p>
-            <button class=" border-1 border-black-500 rounded-[5px]  bg-indigo-600 w-20 hover:bg-indigo-700">+ panier</button>
-       </div>    
-      </div>
-
-</div>
-</body>
-</html>
+    </html>
