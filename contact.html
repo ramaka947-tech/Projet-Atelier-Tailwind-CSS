@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Shop-Contact</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+
+<body class="bg-[#F1F3F4] ">
+
+    <header class="bg-[#1f2937] text-white p-4 sticky top-0 z-50">
+        <nav>
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+                <a href="index.html" class="text-2xl font-bold text-[#6366f1]">E-Shop</a>
+                <div class="flex flex-wrap justify-center gap-4 md:gap-6">
+                    <a href="index.html" class="hover:text-[#6366f1] font-semibold">Accueil</a>
+                    <a href="hommes.html" class="hover:text-[#6366f1]">Hommes</a>
+                    <a href="femmes.html" class="hover:text-[#6366f1]">Femmes</a>
+                    <a href="accessoires.html" class="hover:text-[#6366f1]" >Accessoires</a>
+                    <a href="qui_somm  es-nous.html" class="hover:text-[#6366f1]">Qui Sommes-Nous</a>
+                    <a href="contact.html" class="text-[#10b981]">Contact</a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="favoris.html" class="text-2xl hover:scale-110">❤️</a>
+                    <div class="flex items-center gap-2 bg-[#10b981] rounded-xl px-4 py-2">🛒 Panier (0)
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<body class="bg-gray-50 text-slate-900 font-sans">
+
+    <header class="bg-[#10b981] text-white py-16 text-center">
+        <h1 class="text-4xl font-bold mb-2">Contactez-nous</h1>
+        <p class="text-lg opacity-90 font-medium">Nous sommes là pour vous aider</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <div class="lg:col-span-2">
+            <h2 class="text-2xl font-bold mb-6">Envoyez-nous un message</h2>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+                <form action="#" class="space-y-5">
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Nom</label>
+                            <input type="text" placeholder="Votre nom" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:outline-none transition-all placeholder:text-gray-400">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-2">Prénom</label>
+                            <input type="text" placeholder="Votre prénom" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:outline-none transition-all placeholder:text-gray-400">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Email</label>
+                        <input type="email" placeholder="votre@email.com" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:outline-none transition-all placeholder:text-gray-400">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Sujet</label>
+                        <select class="w-full px-4 py-3 rounded-lg border border-gray-200 bg-white focus:ring-2 focus:ring-emerald-500 focus:outline-none transition-all appearance-none cursor-pointer text-slate-600">
+                            <option>Choisir un sujet</option>
+                            <option>Support Client</option>
+                            <option>Partenariat</option>
+                            <option>Autre</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-2">Message</label>
+                        <textarea rows="5" placeholder="Votre message..." class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-emerald-500 focus:outline-none transition-all resize-none placeholder:text-gray-400"></textarea>
+                    </div>
+                    
+                    <div class="pt-2">
+                        <button type="submit" class="w-full bg-[#5c5cf1] hover:bg-[#4a4ad4] text-white font-bold py-4 rounded-xl shadow-lg shadow-indigo-100 transition-all active:scale-[0.98]">
+                            Envoyer le message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="text-2xl font-bold mb-6">Nos coordonnées</h2>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 space-y-8">
+                
+                <div class="flex items-start gap-4">
+                    <div class="text-pink-500 text-2xl">📍</div>
+                    <div>
+                        <p class="font-bold text-slate-800">Adresse</p>
+                        <p class="text-slate-500 text-sm">123 Rue du Commerce<br>75001 Paris, France</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <div class="text-pink-500 text-2xl">📞</div>
+                    <div>
+                        <p class="font-bold text-slate-800">Téléphone</p>
+                        <p class="text-slate-500 text-sm">+33 1 23 45 67 89</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <div class="text-purple-400 text-2xl font-serif italic">✉</div>
+                    <div>
+                        <p class="font-bold text-slate-800">Email</p>
+                        <p class="text-indigo-500 text-sm italic">contact@eshop.com</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                    <div class="text-gray-400 text-2xl">🕒</div>
+                    <div>
+                        <p class="font-bold text-slate-800">Horaires</p>
+                        <p class="text-slate-500 text-sm italic">Lun - Ven : 9h - 18h</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+         </main>
+
+
+
+<section class="bg-white flex items-center justify-center p-4 sm:p-10 min-h-screen">
+  <div class="flex flex-col gap-3 max-w-5xl w-full px-4">
+    
+    <h1 class="font-bold text-2xl sm:text-[25px] lg:text-3xl text-gray-800 text-center">
+      Questions Fréquentes
+    </h1>
+    
+    <div class="bg-gray-100 rounded-[8px] p-6 sm:p-8 w-full shadow-lg shadow-gray-300">
+      <h2 class="font-bold text-lg sm:text-xl mb-2">❓Comment suivre ma commande ?</h2>
+      <p class="text-gray-700 leading-relaxed">Connectez-vous à votre compte et accédez à la section "Mes commandes" pour suivre l'état de votre livraison.</p>
+    </div>
+
+    <div class="bg-gray-100 rounded-[8px] p-6 sm:p-8 w-full shadow-lg shadow-gray-300">
+      <h2 class="font-bold text-lg sm:text-xl mb-2">❓Quels sont les délais de livraison ?</h2>
+      <p class="text-gray-700 leading-relaxed">La livraison standard prend 3-5 jours ouvrés. La livraison express est disponible en 24-48h.</p>
+    </div>
+
+    <div class="bg-gray-100 rounded-[8px] p-6 sm:p-8 w-full shadow-lg shadow-gray-300">
+      <h2 class="font-bold text-lg sm:text-xl mb-2">❓Comment retourner un article ?</h2>
+      <p class="text-gray-700 leading-relaxed">Vous disposez de 30 jours pour retourner un article. Rendez-vous dans "Mes commandes" et cliquez sur "Retourner".</p>
+    </div>
+
+    <div class="bg-gray-100 rounded-[8px] p-6 sm:p-8 w-full shadow-lg shadow-gray-300">
+      <h2 class="font-bold text-lg sm:text-xl mb-2">❓Quels moyens de paiement acceptez-vous ?</h2>
+      <p class="text-gray-700 leading-relaxed">Nous acceptons les cartes bancaires (Visa, Mastercard), PayPal, et le paiement en 3x sans frais.</p>
+    </div>
+  </div>
+</section>
+
+
+
+    <footer class="bg-[#1f2937] text-white py-8 px-4 mt-auto">
+        <div class="max-w-6xl mx-auto text-center">
+            <p>&copy;2026 E-Shop - Projet Atelier Tailwind CSS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
